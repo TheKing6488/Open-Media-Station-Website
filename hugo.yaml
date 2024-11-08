@@ -1,0 +1,59 @@
+# Basics
+baseURL: https://openmediastation.org
+title: Open Media Station
+enableGitInfo: true
+
+# Modules
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+# Language
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+enableMissingTranslationPlaceholders: true
+
+params:
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+  editURL:
+    enable: true
+    base: "https://github.com/OpenMediaStation/website/edit/main/content"
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+# Menu
+menu:
+  main:
+    - name: Search
+      params:
+        type: search
+      weight: 20
+    - name: GitHub
+      weight: 70
+      url: "https://github.com/OpenMediaStation"
+      params:
+        icon: github
+
+# Outputs
+outputs:
+  section:
+    - HTML
+    - RSS
+    - print
+
+# SEO
+sitemap:
+  changefreq: daily
+  filename: sitemap.xml
+  priority: 0.5
+
+enableRobotsTXT: true
+
+privacy:
+  youtube:
+    disable: false
+    privacyEnhanced: true
