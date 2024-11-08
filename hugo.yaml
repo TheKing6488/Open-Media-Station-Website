@@ -3,6 +3,13 @@ baseURL: https://openmediastation.org
 title: Open Media Station
 enableGitInfo: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
 # Modules
 module:
   imports:
@@ -12,6 +19,15 @@ module:
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 enableMissingTranslationPlaceholders: true
+languages:
+  en:
+    languageName: English
+    weight: 1
+  # de:
+  #   languageName: Deutsch
+  #   weight: 2
+
+enableInlineShortcodes: true
 
 params:
   theme:
@@ -28,7 +44,10 @@ params:
 # Menu
 menu:
   main:
-    - name: Search
+    - identifier: documentation
+      pageRef: /docs
+      weight: 1
+    - identifier: search
       params:
         type: search
       weight: 20
