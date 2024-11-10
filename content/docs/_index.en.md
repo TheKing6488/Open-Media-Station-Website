@@ -2,4 +2,6 @@
 title = 'Docs'
 +++
 
-Work in progress...
+Welcome to our documentation. If you find an error here or need more information feel free to create an issue on GitHub.
+
+[Getting Started](./getting-started/)
