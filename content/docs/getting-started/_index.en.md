@@ -27,4 +27,4 @@ TMDB_KEY=aaaaaaaaaaaaaaaaaaaaaaa
 
 ## Get the clients
 
-You can obtain the client from the artifacts of the latest [pipeline run](https://github.com/OpenMediaStation/OpenMediaStation.FE.MovieTV/actions).
+You can obtain the client from the artifacts of the latest [release](https://github.com/OpenMediaStation/OpenMediaStation.FE.MovieTV/releases).
