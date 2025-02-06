@@ -67,7 +67,6 @@ outputs:
   section:
     - HTML
     - RSS
-    - print
 
 # SEO
 sitemap:
