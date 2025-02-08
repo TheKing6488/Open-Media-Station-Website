@@ -25,6 +25,8 @@ TMDB_KEY=aaaaaaaaaaaaaaaaaaaaaaa
 
 4. Make sure to mount your media directory to `/media` and provide a empty directory for the server files at `/config`.
 
+## Docker compose
+
 ## Get the clients
 
 You can obtain the client from the artifacts of the latest [release](https://github.com/OpenMediaStation/OpenMediaStation.FE.MovieTV/releases).
